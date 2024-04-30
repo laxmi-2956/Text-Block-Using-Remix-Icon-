@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./button_files/style.css">
+     <link rel="stylesheet" href="./button_files/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+    .button1{
+        border: 1px solid crimson;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        border-radius: 15px;
+
+    }
+    .button1:hover{
+        background-color: red;
+        color: white;
+        text-decoration: none;
+    }
+    .button2
+    {
+        border: 1px solid yellowgreen;
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        border-radius: 15px;
+    }
+    .button2:hover
+    {
+        background-color: deeppink;
+        color: white;
+       
+    }
+    .button3 
+    {
+        border: 1px solid yellow;
+        padding: 10px 20px;
+        border-radius: 15px;
+        display: inline-block;
+        color: rgb(194, 23, 23);
+        text-decoration: none;
+        border-radius: 15px;
+       
+
+    }
+    .button3:hover
+    {
+        background-color: red;
+        color:yellow ;
+       
+       
+       
+    }
+    .button4 
+    {
+        border: 1px solid palevioletred;
+        padding: 10px 20px;
+        text-decoration:none;
+        display: inline-block;
+        color:blue;
+        text-decoration: none;
+        border-radius: 15px;
+        transition: 0.5s;
+       
+       
+    }
+    .button4:hover
+    {
+       
+        color: rgb(194, 23, 23);
+        background-image: linear-gradient(white, yellow);
+        }
+        
+    </style>
+</head>
+<body>
+    
+        <a class="button1" href="http://127.0.0.1:5500/index.html"><i class="ri-file-user-fill"></i>login</a>
+       
+        
+            <a class="button2" href="http://127.0.0.1:5500/index.html"><i class="ri-file-user-fill"></i>login</a> 
+            <a class="button3" href="http://127.0.0.1:5500/index.html"><i class="ri-file-user-fill"></i>login</a> 
+            <a class="button4" href="http://127.0.0.1:5500/index.html"><i class="ri-file-user-fill"></i>login</a> 
+       
+              
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
